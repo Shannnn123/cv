@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p><a href="https://www.instagram.com/epicfunnypage/?hl=en">Instagram</a></p>
+  <p><a href="https://www.youtube.com/channel/UC90sC4LSYkEPkeSeL9F4WIQ">YouTube</a></p>
+  <p>myrandomgmail@urmom.com</p>
+  <hr>
+  <form action="mailto:shannimangat@gmail.com" method="post" enctype="text/plain"> <!--The part in green after "action" will take you to that location once you hit submit. We can change that. Watch lesson 26. Forms in Practice - Create a Contact Me Form
+We are going to delete the class part of the form tag. Then we are going to add mailto:shannimangat@gmail.com this will automatically bring up an email tab with the email adress written on it -->
+    <label>Your Name:</label> <!--Label tag allows you to ask the reader of the webiste a question. Our question in this scenario is "Your Name" -->
+    <input type="text" name="yourName" value=""> <br> <!-- This is the input tag. This allowes the reader of the website to type in the answer from the label tag. The green "text" is default and that is what we are using because the person who reads the label will answer in text. -->
+    <label>Are you lulli?</label> <!-- This is another question and the response will have a checkmark option. ALso the br tag shown above breaks the line and creates a new one below.-->
+    <input type="checkbox" name="" value=""><br> <!-- This is the checkbox input. There are MANY kinds of input options. Read more about different kinds of inputs here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+    <label>Password:</label>
+    <input type="password"> <br> <!-- This is the password input. This is another example of label and input. Read more about different kinds of examples in the link above or watch this lesson: 25. HTML Forms
+    We also can delete the orange name and value parts of the input tags as we are not using them right now. However, RIGHT NOW it does not make a difference on the website whether you delete them or not. -->
+    <label>Your message:</label> <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!-- The text area tag allows for you to creat a text box. To make it TALLER, increase ROWS. To make it LONGER, increase COLS. And make sure to use br tag to sepereate the different kinds of inputs and labels.  -->
+    <input type="submit" name=""> <!-- To add a submit button, use the input tag and erase the default "text" and instead write "submit". Then DELETE the ORANGE VALUE part of the input tag as shown. -->
+  </form>
+</body>
+
+</html>
